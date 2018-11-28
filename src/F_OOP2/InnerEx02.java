@@ -6,7 +6,7 @@ public class InnerEx02 {
 		//method() 호출
 		Outer o = new Outer();
 		Outer.Inner in = o.new Inner();
-		
+		in.method();
 		
 		
 	}

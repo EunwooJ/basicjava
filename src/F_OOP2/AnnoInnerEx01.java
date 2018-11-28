@@ -7,15 +7,8 @@ import java.awt.event.ActionListener;
 public class AnnoInnerEx01 {
 	public static void main(String[] args) {
 		Button b = new Button();
-		
 		ActionListener a = new EventHandler();
-		
 		b.addActionListener(a);
-		
-		
-		
-		
-		
 	}
 }
 
